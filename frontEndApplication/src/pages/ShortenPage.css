@@ -1,0 +1,23 @@
+.main {
+    max-width: 500px; 
+    margin: 30px auto; 
+    padding: 20px;
+  }
+  .input {
+    display: block; 
+    width: 100%; 
+    margin: 10px 0; 
+    padding: 8px;
+  }
+  .input::placeholder {
+    color: #ffffff; 
+  }
+  .url-box {
+    margin-bottom: 15px;
+  }
+  .btn {
+    padding: 8px 16px; 
+    margin: 10px 5px; 
+    cursor: pointer;
+  }
+  
