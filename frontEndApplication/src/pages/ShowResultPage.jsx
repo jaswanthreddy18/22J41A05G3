@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 
 const createCode = () => {
-  const pool = 'abc123XYZuvw456LMN789rstDEFghiJKlopq';
+  const pool = 'jbdsabcouvowcEHADSKMN23435dcfsjkjNKK5ec';
   let result = '';
   for (let i = 0; i < 6; i++) {
     const index = Math.floor(Math.random() * pool.length);
