@@ -53,12 +53,12 @@ function App() {
           "Content-Type": "application/json"
         },
       });
-      console.log('Log sent successfully:', res.data);
+      console.log(res.data);
       if(res){
         console.log(res);
       }
     } catch (error) {
-      console.error("Failed to send log:", error);
+      console.error(error);
     }
   };
   return (
